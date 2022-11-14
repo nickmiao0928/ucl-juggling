@@ -183,3 +183,85 @@ div.indent {
 .bordered {
   border: thin solid Black;
 }
+
+/*
+Add updated sizing for small devices here
+*/
+@media (max-width: 600px) {
+  a:link {
+  }
+  a:visited {
+  }
+  a:hover {
+  }
+
+  h1 a {
+  }
+  h2 a {
+  }
+  h3 a {
+  }
+
+  .content {
+  }
+
+  .content h1 {
+  }
+
+  .content h2 {
+  }
+
+  .content h3 {
+  }
+
+  .content .footer {
+  }
+
+  .content .footnote {
+  }
+
+  .content hr {
+  }
+
+  .content .caption {
+  }
+  /*/*/
+  a {
+  }
+  .content .caption {
+  }
+  /* */
+
+  div.logo {
+  }
+
+  .halfsize {
+  }
+
+  img.logo {
+  }
+
+  .sidebar {
+  }
+
+  .sidebar ul {
+  }
+
+  .sidebar li {
+  }
+
+  acronym {
+  }
+
+  p.nav {
+  }
+
+  span.red {
+  }
+
+  div.indent {
+  }
+
+  .bordered {
+  }
+}
