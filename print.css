@@ -1,0 +1,20 @@
+/*
+Style sheet by Iain Murray 2002
+webmaster / iainmurray . net
+
+This is for hiding the sidebar when printing.
+Not much point doing anything pretty for printing.
+*/
+
+.sidebar {
+	display : none;
+}
+
+/* Mark Pilgrim cleverness */
+acronym:after {
+  content: " (" attr(title) ")";
+}
+
+p.nav {
+	display : none;
+}

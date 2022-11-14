@@ -1,0 +1,183 @@
+/*
+Style sheet by Iain Murray 2004
+webmaster / iainmurray . net
+
+Please a) keep the references in this comment so people copying off you look at
+them and are responsible. b) only change stuff if you REALLY know what you are
+doing.
+
+Intended for screen media only. Mess with printing and you're
+asking for trouble. Include in HTML 4.0 like this:
+<LINK rel="stylesheet" type="text/css" media="screen" href="new.css">
+
+Netscape 4 gets some css horribly wrong.
+I've made it ignore some bits using the trick from:
+http://www.v2studio.com/k/css/n4hide/
+This sort of thing is why I hate web design. Even the simplest
+formatting, like this page is a nightmare.
+
+BTW If you're poking around style sheets, take a look at:
+http://diveintoaccessibility.org/
+http://www.w3.org/TR/WCAG10-CSS-TECHS/
+http://www.realworldstyle.com
+*/
+
+body {
+	color : #FFFFFF;
+	background-color : #000000;
+}
+
+a:link { color: #26ADFF; }
+a:visited { color: #3282F6; }
+a:hover { color: #26ADFF; background-color: #ffffdd;}
+
+h1 a { text-decoration: none; }
+h2 a { text-decoration: none; }
+h3 a { text-decoration: none; }
+
+/* I saw this and thought it was cool
+P:first-letter { font-size: 200%; float: left }
+*/
+
+.content {
+
+/*space jam background
+*/
+bgcolor="#000000" background="graphics/bg_stars.gif" text="#ff0000" link="#ff4c4c" vlink="#ff4c4c" alink="#ff4c4	
+
+background-color : Black;
+	font-family : 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin-left : 22ex;
+	border-left : 2px solid #808080;
+	padding-left : 5ex;
+	padding-right : 5ex;
+	padding-top : 1ex;
+	padding-bottom : 4ex;
+}
+
+.content h1 {
+	color : #73FBFD;
+	border-bottom : 2px solid #808080;
+	font-size : 130%;
+	margin-top: 15px;
+}
+/*/*/a{}
+.content h1 {
+	margin-top: 2ex;
+}
+/* */
+
+.content h2 {
+	color : #73FBFD;
+	font-size : 100%;
+	border-bottom : 1px solid #808080;
+}
+
+.content h3 {
+	color : #73FBFD;
+	font-size : 80%;
+	border-bottom : 1px solid #cccccc;
+}
+
+.content .footer {
+	text-align: right;
+	font-size: 80%;
+	color: #808080;
+	margin: 0;
+	padding-bottom: 0;
+}
+
+.content .footnote {
+	font-size: 60%;
+	color: #808080;
+	padding : 4ex;
+}
+
+.content hr{
+	/* Yes, this is all needed to get a coloured rule to work
+	in just IE, Netscape and Opera. Thankfully other browsers
+	seem less demanding. */
+	
+	color : #808080;
+	background-color : #808080;
+	height : 2px;
+	border: 0 solid #808080;
+}
+
+.content .caption {
+	font-style : italic;
+	text-align : center;
+	color : #000000;
+	margin : 10px;
+	padding : 10px;
+	background-color : #ffffa0;
+}
+/*/*/a{}
+.content .caption {
+	font-style : normal;
+	margin : 2ex;
+	padding : 2ex;
+}
+/* */
+
+div.logo {
+	color : #73FBFD;
+	font-size : 200%;
+	font-weight : bolder;
+	text-align: left;
+	border-bottom : 2px solid #808080;
+
+	font-family : 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+	padding : 10px;
+	margin-bottom : 0px;
+}
+
+.halfsize {
+	font-size : 50% !important ;
+}
+
+img.logo {
+	margin-bottom : 10px;
+}
+
+.sidebar {
+	/* It's a shame "position : fixed" isn't better supported */
+	position : absolute;
+	left : 0px;
+	top : 16ex;
+	width: 20ex;
+	padding : 2ex;
+	margin : 0ex;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	padding : 0ex;
+	margin : 0ex;
+}
+
+.sidebar li {
+	padding-bottom: 1ex;
+}
+
+acronym {
+  border-bottom: 1px dotted black;
+}
+
+p.nav {
+	text-align: right;
+	font-size : 60%;
+}
+
+span.red {
+	color: #ff0000;
+}
+
+div.indent {
+	margin-left : 2em;
+}
+
+.bordered {
+	border : thin solid Black;
+}
